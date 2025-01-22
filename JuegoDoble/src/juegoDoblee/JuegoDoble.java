@@ -54,7 +54,7 @@ public class JuegoDoble {
 
         // Resultado final
         System.out.println("\nJuego terminado.");
-        System.out.println("Jugador 1: " + puntuaciones[0] + " puntos. ()");
+        System.out.println("Jugador 1: " + puntuaciones[0] + " puntos.");
         System.out.println("Jugador 2: " + puntuaciones[1] + " puntos.");
         System.out.println(puntuaciones[0] > puntuaciones[1] ? "¡Gana el Jugador 1!" : puntuaciones[0] < puntuaciones[1] ? "¡Gana el Jugador 2!" : "¡Empate!");
 
