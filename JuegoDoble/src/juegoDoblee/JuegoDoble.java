@@ -4,6 +4,8 @@ public class JuegoDoble {
 	public static void main(String[] args) {
 		Scanner sc= new Scanner(System.in);
 		int [][] array= new int[4][4];
+		int [] jugador1= new int[array.length * array.length / 2];
+		int [] jugador2= new int[array.length * array.length / 2];
 		//int a=sc.nextInt();
 		
 		System.out.println("Introduce un número del 1 al 8.");
