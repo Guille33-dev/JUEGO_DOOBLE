@@ -9,13 +9,10 @@ public class JuegoDoble3 {
         int[] conteoNum = new int[9]; // Para contar las repeticiones de los números (1 al 8)
         int[] puntuaciones = {0, 0}; // Puntos de jugador 1 y jugador 2
         
-        int i;
-        int j;
-        
         // Rellenar la matriz con números del 1 al 8, no más de dos veces cada uno
         System.out.println("Introduce los números del 1 al 8 en la matriz. No repitas ningún número más de dos veces.");
-        for (i = 0; i < matriz.length; i++) {
-            for (j = 0; j < matriz.length; j++) {
+        for (int i = 0; i < matriz.length; i++) {
+            for (int j = 0; j < matriz.length; j++) {
                 while (true) {
                     System.out.println("Introduce el número para la posición [" + i + "] [" + j + "]:");
                     int num = sc.nextInt();
